@@ -11,7 +11,7 @@ function getWeather(city) {
 
 function handleErrors(response) {
   if (!response.ok) {
-    throw Error("user must enter a valid city name");
+    alert("user must enter a valid city name");
   }
   return response;
 }
